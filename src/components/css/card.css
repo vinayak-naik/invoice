@@ -1,0 +1,198 @@
+.card-container{
+    height: 250px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px 0 0 0;
+    border: 0.1px solid rgb(243, 243, 243);
+    background-color: rgb(246, 247, 185);
+}
+.card-upper{
+    flex-basis: 65%;
+    width: 90%;
+    display: flex;
+}
+.card-upper-left{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-upper-middle{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 10px 10px 10px 0;
+}
+.card-upper-middle h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.card-upper-middle h2{
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.card-upper-middle span{
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.card-upper-right{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.card-rupees{
+    margin: 12px;
+    color: orangered;
+}
+.card-payment{
+    margin: 10px;
+    background-color: orangered;
+    padding: 2px 12px 3px;
+    border-radius: 5px;
+    color: white;
+}
+.card-lower{
+    flex-basis: 35%;
+    width: 90%;
+    display: flex;
+}
+.card-lower-box{
+    margin-top: 5px;
+    height: 70%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    border: 0.1px solid rgb(243, 243, 243);
+}
+
+.card-lower-box-left{
+    height: 100%;
+    border-right: 0.4px solid rgb(177, 177, 177);
+    flex-basis: 55%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-lower-box-left h2{
+    color: black;
+    font-size: 1rem;
+
+}
+.card-lower-box-left p{
+    color: rgb(143, 143, 143);
+    font-size: 0.8rem;
+}
+.card-lower-box-right{
+    height: 100%;
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7%;
+}
+.card-lower-box-right h2{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.card-lower-box-right p{
+    color: rgb(68, 231, 18);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:650px){
+
+    .card-upper{
+        width: 94%;
+    }
+    .card-lower{
+        width: 94%;
+    }
+    .card-container{
+        height: 220px;
+    }
+}
+@media only screen and (max-width:620px){
+
+    .card-container{
+        height: 200px;
+    }
+    .card-upper-middle h1{
+        font-size: 1.4rem;
+    }
+    .card-upper-middle h2{
+        font-size: 1rem;
+    }
+    .card-upper-middle span{
+        font-size: 0.7rem;
+    }
+    .card-rupees{
+    margin: 5px;
+}
+.card-payment{
+    margin: 5px;
+}
+.card-upper-right{
+    padding-bottom: 10px;
+}
+.card-lower-box-left h2{
+    font-size: 0.9rem;
+
+}
+.card-lower-box-left p{
+    font-size: 0.7rem;
+}
+.card-lower-box-right h2{
+    font-size: 0.9rem;
+
+}
+.card-lower-box-right p{
+    font-size: 0.7rem;
+}
+}
+@media only screen and (max-width:525px){
+
+    .card-container{
+        height: 180px;
+    }
+    .card-upper-middle h1{
+        font-size: 1.2rem;
+    }
+    .card-upper-middle h2{
+        font-size: 0.9rem;
+    }
+    .card-upper-middle span{
+        font-size: 0.6rem;
+    }
+    .card-lower-box-left h2{
+        font-size: 0.8rem;
+    
+    }
+    .card-lower-box-left p{
+        font-size: 0.6rem;
+    }
+    .card-lower-box-right h2{
+        font-size: 0.8rem;
+    
+    }
+    .card-lower-box-right p{
+        font-size: 0.6rem;
+    }
+
+}
+@media only screen and (max-width:460px){
+
+}

@@ -1,0 +1,104 @@
+.head-container{
+    height: 70px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0 0 0;
+    background-color: white;
+    border: 0.1px solid rgb(243, 243, 243);
+}
+.head-left{
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+}
+.head-input-field{
+    height: 35px;
+    width: 340px;
+    flex-shrink: 2;
+    border-radius: 5px;
+    border: 0.2px solid rgb(233, 233, 233);
+}
+.head-input-field input{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+.head-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 4% 0 5%;
+    
+}
+.head-right h2{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: normal;
+    color: blue;
+    
+}
+.head-right a{
+    padding: 10px;
+    
+}
+
+.head-right i{
+    color: blue;
+}
+
+@media only screen and (max-width:525px){
+    
+    
+    .head-right{
+        margin: 0 2% 0 2%;
+    }
+    .head-left{
+        margin-left: 4%;
+    }
+
+}
+@media only screen and (max-width:480px){
+    .head-input-field{
+        height: 30px;
+        width: 250px;
+    }
+    .head-container{
+        height: 60px;
+    }
+    .head-right h2{
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .head-right a{
+        padding: 6px;
+        
+    }
+   
+}
+@media only screen and (max-width:380px){
+    .head-input-field{
+        width: 200px;
+    }
+    .head-right h2{
+        font-size: 0.9rem;
+    }
+   
+}
+@media only screen and (max-width:320px){
+
+    .head-input-field{
+        width: 150px;
+    }
+   
+}
+@media only screen and (max-width:265px){
+    .head-input-field{
+        width: 120px;
+    }
+   
+}
